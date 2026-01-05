@@ -1,0 +1,151 @@
+<!doctype html>
+<html lang="th">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>พรพิทักษ์ โพธิ์รังนก — Portfolio สมัครงาน / Freelance</title>
+  <meta name="description" content="Portfolio ของ พรพิทักษ์ (ทีม) — นักศึกษา สาขา เทคโนโลยีธุรกิจดิจิทัล | ทักษะ: C++, Java, Python, ประกอบคอมพิวเตอร์, ใช้ AI"/>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <style>
+    :root{
+      --accent:#0f766e;
+      --bg:#f8fafc;
+      --card:#ffffff;
+      --muted:#6b7280;
+      --glass: rgba(255,255,255,0.6);
+    }
+    *{box-sizing:border-box}
+    html,body{height:100%;margin:0;font-family:Inter,system-ui,-apple-system,"Segoe UI",Roboto,'Helvetica Neue',Arial; background:var(--bg); color:#0f172a}
+    .container{max-width:960px;margin:36px auto;padding:24px}
+    .card{background:var(--card);border-radius:12px;padding:20px;box-shadow:0 6px 20px rgba(2,6,23,0.06);}
+    header{display:flex;gap:18px;align-items:center}
+    .avatar{width:120px;height:120px;border-radius:999px;background:linear-gradient(135deg,var(--accent),#7dd3fc);display:flex;align-items:center;justify-content:center;font-weight:700;font-size:28px;color:white;flex-shrink:0}
+    h1{margin:0;font-size:22px}
+    .meta{color:var(--muted);margin-top:6px}
+    .grid{display:grid;grid-template-columns:1fr 320px;gap:18px;margin-top:18px}
+    .section{margin-top:18px}
+    .label{font-weight:600;color:var(--muted);font-size:13px}
+    ul{padding-left:18px;margin:6px 0}
+    .skill{margin:8px 0}
+    .bar{height:10px;background:#e6eef0;border-radius:999px;overflow:hidden}
+    .bar > i{display:block;height:100%;border-radius:999px;background:linear-gradient(90deg,var(--accent),#34d399);width:0%}
+    .stats{display:flex;gap:8px;flex-wrap:wrap}
+    .stat{background:linear-gradient(180deg,rgba(15,118,110,0.08),rgba(15,118,110,0.03));padding:10px;border-radius:8px;flex:1;min-width:110px}
+    .btn{display:inline-block;padding:10px 14px;border-radius:8px;background:var(--accent);color:white;text-decoration:none;font-weight:600}
+    footer{margin-top:20px;color:var(--muted);font-size:13px;text-align:center}
+    @media(max-width:880px){
+      .grid{grid-template-columns:1fr}
+      .avatar{width:96px;height:96px;font-size:22px}
+    }
+  </style>
+</head>
+<body>
+  <div class="container card">
+    <header>
+      <div class="avatar">ทีม</div>
+      <div>
+        <h1>พรพิทักษ์ โพธิ์รังนก <span style="font-weight:500;color:var(--muted);">(ชื่อเล่น: ทีม)</span></h1>
+        <div class="meta">นักศึกษา — สาขา เทคโนโลยีธุรกิจดิจิทัล, มหาวิทยาลัยเทคโนโลยีราชมงคลสุวรรณภูมิ</div>
+        <div class="meta">อายุ: 19 ปี • วันเกิด: 24 กรกฎาคม 2549 • เชื้อชาติ: ไทย • ศาสนา: พุทธ</div>
+      </div>
+    </header>
+
+    <div class="grid">
+      <main class="card" style="padding:18px">
+        <section class="section">
+          <div class="label">สรุปตัวเอง</div>
+          <p>ผมเป็นนักศึกษาคณะบริหารธุรกิจและเทคโนโลยีสารสนเทศ สาขาเทคโนโลยีธุรกิจดิจิทัล มีความสนใจทั้งด้านเทคโนโลยีและการพัฒนาตนเองทางด้านร่างกาย ผมเป็นนักกีฬาบาสเกตบอล ชอบออกกำลังกาย และชอบช่วยเหลือผู้อื่น มีความรับผิดชอบ สามารถทำงานเป็นทีมได้ดี และพร้อมเรียนรู้สิ่งใหม่ ๆ อยู่เสมอ</p>
+        </section>
+
+        <section class="section">
+          <div class="label">ทักษะ</div>
+          <div class="skill"><div style="display:flex;justify-content:space-between;font-size:13px"><strong>C++</strong><span>ดี</span></div><div class="bar"><i data-percent="75"></i></div></div>
+          <div class="skill"><div style="display:flex;justify-content:space-between;font-size:13px"><strong>Java</strong><span>ปานกลาง-ดี</span></div><div class="bar"><i data-percent="70"></i></div></div>
+          <div class="skill"><div style="display:flex;justify-content:space-between;font-size:13px"><strong>Python</strong><span>ปานกลาง</span></div><div class="bar"><i data-percent="65"></i></div></div>
+          <div class="skill"><div style="display:flex;justify-content:space-between;font-size:13px"><strong>ซ่อม/ประกอบคอมพิวเตอร์</strong><span>ดี</span></div><div class="bar"><i data-percent="80"></i></div></div>
+          <div class="skill"><div style="display:flex;justify-content:space-between;font-size:13px"><strong>การใช้ AI (เบื้องต้น)</strong><span>ปานกลาง</span></div><div class="bar"><i data-percent="60"></i></div></div>
+        </section>
+
+        <section class="section">
+          <div class="label">การศึกษา</div>
+          <ul>
+            <li>มหาวิทยาลัยเทคโนโลยีราชมงคลสุวรรณภูมิ — คณะบริหารธุรกิจและเทคโนโลยีสารสนเทศ (สาขา: เทคโนโลยีธุรกิจดิจิทัล)</li>
+          </ul>
+        </section>
+
+        <section class="section">
+          <div class="label">ผลงาน / โปรเจค (ตัวอย่าง)</div>
+          <ul>
+            <li>โปรเจคการเรียน: ระบบจัดการข้อมูล (ใช้ภาษา C++ / Java)</li>
+            <li>โปรเจคฝึกทักษะ: เขียนสคริปต์ด้วย Python เพื่อช่วยจัดการข้อมูล</li>
+            <li>งาน Freelance: รับซ่อมและประกอบคอมพิวเตอร์ให้เพื่อนและบุคคลทั่วไป</li>
+          </ul>
+        </section>
+
+        <section class="section">
+          <div class="label">กิจกรรม (Activities)</div>
+          <ul>
+            <li>นักกีฬาบาสเกตบอลของสถาบัน / ชมรม</li>
+            <li>เข้าร่วมกิจกรรมออกกำลังกายและการแข่งขันกีฬา</li>
+            <li>ร่วมกิจกรรมจิตอาสา และช่วยเหลืองานส่วนรวม</li>
+          </ul>
+        </section>
+
+        <section class="section">
+          <div class="label">พร้อมรับงาน</div>
+          <p>รับงานพัฒนาระบบเบื้องต้น สคริปต์อัตโนมัติ ซ่อม/ประกอบคอมพิวเตอร์ และรับงาน freelance ที่เกี่ยวกับทักษะด้านคอมพิวเตอร์และดิจิทัล</p>
+          <a class="btn" href="mailto:your.email@example.com?subject=ติดต่อ%20รับงาน%20จาก%20ทีม">ติดต่อผ่านอีเมล</a>
+        </section>
+
+        <section class="section">
+          <div class="label">หมายเหตุ</div>
+          <p style="color:var(--muted);font-size:13px">แทนที่ <code>your.email@example.com</code> ด้วยอีเมลจริงของคุณ ก่อนอัพโหลดหรือแชร์หน้าเว็บไซต์นี้</p>
+        </section>
+      </main>
+
+      <aside class="card" style="padding:18px;align-self:start">
+        <div class="label">ข้อมูลด่วน</div>
+        <div class="stats" style="margin-top:10px">
+          <div class="stat"><div style="font-size:12px;color:var(--muted)">ส่วนสูง/น้ำหนัก</div><div style="font-weight:700;margin-top:6px">197 cm / 80 kg</div></div>
+          <div class="stat"><div style="font-size:12px;color:var(--muted)">อายุ</div><div style="font-weight:700;margin-top:6px">19 ปี</div></div>
+        </div>
+
+        <div class="section">
+          <div class="label">ทักษะเสริม</div>
+          <ul>
+            <li>การประกอบและซ่อมคอมพิวเตอร์</li>
+            <li>การใช้เครื่องมือ AI เพื่อช่วยในการทำงานและการเรียน</li>
+            <li>การทำงานเป็นทีม จากประสบการณ์นักกีฬาบาสเกตบอล</li>
+            <li>มีจิตอาสา ชอบช่วยเหลือผู้อื่น</li>
+          </ul>
+        </div>
+
+        <div class="section">
+          <div class="label">ลิงก์สำคัญ</div>
+          <ul>
+            <li><a href="#">ดาวน์โหลด CV (อัปโหลดไฟล์ PDF และแทนที่ลิงก์นี้)</a></li>
+            <li><a href="#">GitHub / โปรเจคตัวอย่าง (ถ้ามี)</a></li>
+          </ul>
+        </div>
+
+        <div class="section">
+          <div class="label">ติดต่อเพิ่มเติม</div>
+          <p style="font-size:14px">กรุณาเปลี่ยนที่อยู่อีเมลในปุ่มติดต่อเป็นของคุณเอง</p>
+        </div>
+      </aside>
+    </div>
+
+    <footer>
+      สร้างด้วย ❤️ โดย พรพิทักษ์ (ทีม) — สามารถแก้ไขหน้า HTML นี้เพื่อปรับแต่งข้อมูลและการออกแบบก่อนอัพโหลดขึ้น GitHub
+    </footer>
+  </div>
+
+  <script>
+    // animate skill bars from data-percent attribute
+    document.querySelectorAll('.bar i').forEach(function(el){
+      var p = el.getAttribute('data-percent') || '50';
+      setTimeout(function(){ el.style.width = p + '%'; }, 200);
+    });
+  </script>
+</body>
+</html>
